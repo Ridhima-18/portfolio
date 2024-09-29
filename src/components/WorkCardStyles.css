@@ -1,0 +1,37 @@
+.project-heading{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.project-container{
+    padding: 4rem ;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.project-card{
+ min-width: 300px;
+ text-align: center;
+ padding: 1.5rem;
+ background: #1a1919;
+ border: 1px solid #fff;
+}
+.project-card img{
+    width: 100%;
+   }
+.pro-details{
+    padding: 2rem 0;
+}
+.project-title{
+    margin-top: 1rem;
+}
+.pro-btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:740px) {
+    .project-container{
+        flex-wrap: wrap;
+    }  
+}
